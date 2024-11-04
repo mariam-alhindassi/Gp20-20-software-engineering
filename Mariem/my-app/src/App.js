@@ -1,19 +1,25 @@
-import React from 'react';
+import logo from './logo.svg';
+import './App.css';
 
-function MyComponent() {
-    const greeting = "Hello, World!";
-    
-    return (
-        <div>
-            <h1>{greeting}</h1>
-            <p>Welcome to our site.</p>
-            <button onClick={handleClick}>Click Me</button>
-        </div>
-    );
-    
-    function handleClick() {
-        alert("Button clicked!");
-    }
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+  );
 }
 
-export default MyComponent;
+export default App;
