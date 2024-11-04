@@ -22,4 +22,24 @@ function App() {
   );
 }
 
+
+function Greeting() {
+    const name = "Ahmed";
+    const isLoggedIn = true;
+
+    return (
+        <div>
+            <h1>Hello, {name}</h1>
+            <p>Welcome back!</p>
+
+            {isLoggedIn ? <button>Logout</button> : <button>Login</button>}
+            
+            <img src="welcome.png" />
+        </div>
+    );
+}
+
+
+
+
 export default App;
