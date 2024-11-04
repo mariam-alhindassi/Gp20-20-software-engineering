@@ -1,3 +1,4 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
@@ -18,28 +19,28 @@ function App() {
           Learn React
         </a>
       </header>
+      
+      {/* Include Greeting component here */}
+      <Greeting />
     </div>
   );
 }
 
-
 function Greeting() {
-    const name = "Ahmed";
-    const isLoggedIn = true;
+  const name = "Ahmed";
+  const isLoggedIn = true;
 
-    return (
-        <div>
-            <h1>Hello, {name}</h1>
-            <p>Welcome back!</p>
+  return (
+    <div>
+      <h1>Hello, {name}</h1>
+      <p>Welcome back!</p>
 
-            {isLoggedIn ? <button>Logout</button> : <button>Login</button>}
-            
-            <img src="welcome.png" />
-        </div>
-    );
+      {isLoggedIn ? <button>Logout</button> : <button>Login</button>}
+      
+      {/* Self-close the img tag */}
+      <img src="welcome.png" alt="welcome" 
+    </div>
+  );
 }
-
-
-
 
 export default App;
