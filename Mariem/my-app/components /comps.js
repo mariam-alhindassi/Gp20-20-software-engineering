@@ -1,4 +1,6 @@
-import React from "react";
+import React from 'react';
+
+
 
 function Comps (){
     return <h1> His Tghis is Mariam </h1>
