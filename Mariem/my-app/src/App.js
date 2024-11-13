@@ -38,7 +38,7 @@ function Greeting() {
       {isLoggedIn ? <button>Logout</button> : <button>Login</button>}
       
       {/* Self-close the img tag */}
-      <img src="welcome.png" alt="welcome" 
+      <img src="welcome.png" alt="welcome" />
     </div>
   );
 }
