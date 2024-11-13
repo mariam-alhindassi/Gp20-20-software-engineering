@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
-import mycomp from './components/comps';  // Ensure this path is correct
+import Mycomps from './components/comps';  // Ensure this path is correct
 
 
 // function App() {
@@ -51,9 +51,8 @@ class App extends Component {
   render() {
     return(
       <div className='App'>
-        <mycomp> 
-
-        </mycomp>
+        <Mycomps />
+        
       </div>
     );
     

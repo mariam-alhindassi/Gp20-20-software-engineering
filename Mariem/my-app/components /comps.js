@@ -1,5 +1,7 @@
 import React from "react";
 
-const comps = () => <h1> Hi this is Mariam </h1>
+function Comps (){
+    return <h1> His Tghis is Mariam </h1>
+}
 
-export default comps
+export default Comps
