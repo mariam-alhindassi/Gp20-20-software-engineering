@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
+//import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import ReactDOM from 'react-dom/client';
 //import Mycomps from './components/comps';  // Ensure this path is correct
 
 
@@ -60,3 +61,16 @@ export default App;
 // }
 
 // export default App;
+function MyForm() {
+  return (
+    <form>
+      <label>Enter your name:
+        <input type="text" />
+      </label>
+    </form>
+  )
+}
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<MyForm />);
+
